@@ -1,0 +1,52 @@
+
+
+platform:
+
+uname -a
+Darwin BigMac-645.local 20.3.0 Darwin Kernel Version 20.3.0: Thu Jan 21 00:07:06 PST 2021; root:xnu-7195.81.3~1/RELEASE_X86_64 x86_64
+
+
+
+127.0.0.1:6379> info server
+# Server
+redis_version:6.2.1
+redis_git_sha1:00000000
+redis_git_dirty:0
+redis_build_id:cfaa1431404ef25b
+redis_mode:standalone
+os:Darwin 20.3.0 x86_64
+arch_bits:64
+multiplexing_api:kqueue
+atomicvar_api:c11-builtin
+gcc_version:4.2.1
+process_id:38974
+process_supervised:no
+run_id:200ce9f3bf068f0f2fb5963a177d420dfaf279a6
+tcp_port:6379
+server_time_usec:1617221579152871
+uptime_in_seconds:699192
+uptime_in_days:8
+hz:10
+configured_hz:10
+lru_clock:6608843
+executable:/usr/local/opt/redis/bin/redis-server
+config_file:/usr/local/etc/redis.conf
+io_threads_active:0
+
+rustc --version
+rustc 1.51.0 (2fd73fabe 2021-03-23)
+
+
+redisjson version:
+
+commit c205258ce58ab27eb94f6bfed70a5e5c75d9c44a (HEAD -> master, origin/master, origin/HEAD, origin/1.1)
+Author: Guy Korland <gkorland@gmail.com>
+Date:   Mon Mar 15 16:38:26 2021 +0200
+
+    fix #272 updating serde (#277)
+
+    * fix #272 updating serde
+
+    * format
+
+# rejson-0.5.4
